@@ -1,11 +1,11 @@
 import React, {FC} from 'react';
-import {View, Text} from 'react-native';
+import {SafeAreaView, View, Text} from 'react-native';
 
 const OnBoarding: FC = () => {
   return (
-    <View>
+    <SafeAreaView>
       <Text>OnBoarding</Text>
-    </View>
+    </SafeAreaView>
   );
 };
 
